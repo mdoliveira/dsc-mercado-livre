@@ -56,14 +56,14 @@ class Product
     private $officialStoreId;
 
     /**
-     * @var integer
-     * @JMS\Type("integer")
+     * @var double
+     * @JMS\Type("double")
      */
     private $price;
 
     /**
-     * @var integer
-     * @JMS\Type("integer")
+     * @var double
+     * @JMS\Type("double")
      */
     private $basePrice;
 
