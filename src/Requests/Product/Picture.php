@@ -18,14 +18,14 @@ class Picture
     private $id;
 
     /**
-     * @var integer
-     * @JMS\Type("integer")
+     * @var string
+     * @JMS\Type("string")
      */
     private $url;
 
     /**
-     * @var integer
-     * @JMS\Type("integer")
+     * @var string
+     * @JMS\Type("string")
      */
     private $secureUrl;
 
